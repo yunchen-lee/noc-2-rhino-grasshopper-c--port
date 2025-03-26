@@ -1,1 +1,1 @@
-# noc-2-rhino-grasshopper-c--port
+# The Nature of Code: Porting from p5.js to Rhino+Grasshopper
