@@ -1,15 +1,3 @@
----
-tags:
-  - medium
-Date: March 29, 2025
-Tags:
-  - Nature of Code
-  - Grasshopper
-  - C#
-  - Digital Design
-  - Rhino
-  - Programming
----
 # 3D Random Walker in Grasshopper C#
 
 ![Pasted 2025-03-29-16-46-53.png](./3D%20Random%20Walker%20in%20Grasshopper%20C#-assets/Pasted%202025-03-29-16-46-53.png)
