@@ -1,7 +1,6 @@
 # 3D Random Walker in Grasshopper C#
 
-![Pasted 2025-03-29-16-46-53.png](https://github.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port/tree/main/chapter0/example_i_1-1_jumpStep_3DWalker/3D%20Random%20Walker%20in%20Grasshopper%20C%23-assets/Pasted%202025-03-29-16-46-53.png)
-
+[![Pasted 2025-03-29-16-46-53.png](https://github.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port/tree/main/chapter0/example_i_1-1_jumpStep_3DWalker/3D%20Random%20Walker%20in%20Grasshopper%20C%23-assets/Pasted%202025-03-29-16-46-53.png)
 *Some paths created by my 3D robot ant.*
 
 Imagine a little robot ant that move randomly in space — that’s what a random walker is! In this post, I’ll introduce how to build a random walker in Rhino and Grasshopper using C#, and also explore different versions of random walkers and how they behave.
