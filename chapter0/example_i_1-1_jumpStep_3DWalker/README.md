@@ -14,13 +14,13 @@ This series is titled “The Nature of Code: Porting from p5.js to Rhino+Grassho
 
 ### 2D Random Walker
 
-![Pasted 2025-03-29-16-46-53 1.png](./3D%20Random%20Walker%20in%20Grasshopper%20C#-assets/Pasted%202025-03-29-16-46-53%201.png)
+![image](https://raw.githubusercontent.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port/main/chapter0/example_i_1-1_jumpStep_3DWalker/3D%20Random%20Walker%20in%20Grasshopper%20C%23-assets/Pasted%202025-03-29-16-46-53%201.png)
 
 *Traditional 2D Random Walker in Grasshopper.*
 
 I started with the traditional 2D random walker, ported from p5.js to C#. In Grasshopper, we write our scroipt in a C# component, and by triggering the component at a fixed time interval, we can see the walker’s path evolve over time (similar to the `draw()` function in p5.js).
 
-![Pasted 2025-03-29-16-46-53 2.png](./3D%20Random%20Walker%20in%20Grasshopper%20C#-assets/Pasted%202025-03-29-16-46-53%202.png)
+![image](https://raw.githubusercontent.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port/main/chapter0/example_i_1-1_jumpStep_3DWalker/3D%20Random%20Walker%20in%20Grasshopper%20C%23-assets/Pasted%202025-03-29-16-46-53%202.png)
 
 *Activate the random walker with a trigger.*
 
@@ -94,13 +94,13 @@ public class Script_Instance : GH_ScriptInstance
 
 ### A Little Adjustment: Jump-Step Walker
 
-![Pasted 2025-03-29-16-46-53 3.png](./3D%20Random%20Walker%20in%20Grasshopper%20C#-assets/Pasted%202025-03-29-16-46-53%203.png)
+![image](https://raw.githubusercontent.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port/main/chapter0/example_i_1-1_jumpStep_3DWalker/3D%20Random%20Walker%20in%20Grasshopper%20C%23-assets/Pasted%202025-03-29-16-46-53%203.png)
 
 A traditional 4-Step Walker creates a continuous path. Now, let’s experiment with a different rule in the `step()` function to generate unpredictable patterns. 
 
 In this example, I implemented a Jump-Step Walker with eight possible steps. The jump steps produce a more dynamic, leap-like digital footprint. 
 
-![Pasted 2025-03-29-16-46-53 4.png](./3D%20Random%20Walker%20in%20Grasshopper%20C#-assets/Pasted%202025-03-29-16-46-53%204.png)
+![image](https://raw.githubusercontent.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port/main/chapter0/example_i_1-1_jumpStep_3DWalker/3D%20Random%20Walker%20in%20Grasshopper%20C%23-assets/Pasted%202025-03-29-16-46-53
 
 Here’s a snippet of the jump-step logic:
 
@@ -124,7 +124,7 @@ public void step(){
 
 To take the concept further, the `Walker` object can be extended into 3D by adding a new property for the z-coordinate (`pz`). Now, the walker is no longer limited to a flate plane — it can move up and down as well as side to side. This results in cool, three-dimensional paths in space.
 
-![Pasted 2025-03-29-16-46-53.gif](./3D%20Random%20Walker%20in%20Grasshopper%20C#-assets/Pasted%202025-03-29-16-46-53.gif)
+![image](https://raw.githubusercontent.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port/main/chapter0/example_i_1-1_jumpStep_3DWalker/3D%20Random%20Walker%20in%20Grasshopper%20C%23-assets/Pasted%202025-03-29-16-46-53.gif)
 
 *3D Random Walker*
 
@@ -165,7 +165,7 @@ class Walker{
 
 - **Unique Footprints:** Experiment with custom rules to generate one-of-a-kind footprints.
 
-![Pasted 2025-03-29-16-57-23.png](./3D%20Random%20Walker%20in%20Grasshopper%20C#-assets/Pasted%202025-03-29-16-57-23.png)
+![image](https://raw.githubusercontent.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port/main/chapter0/example_i_1-1_jumpStep_3DWalker/3D%20Random%20Walker%20in%20Grasshopper%20C%23-assets/Pasted%202025-03-29-16-57-23.png)
 
 *Sacred Space, Leonardo Ulian (2013)*
 
