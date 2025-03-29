@@ -1,6 +1,6 @@
 # 3D Random Walker in Grasshopper C#
 
-![Pasted 2025-03-29-16-46-53.png](./3D%20Random%20Walker%20in%20Grasshopper%20C#-assets/Pasted%202025-03-29-16-46-53.png)
+![Pasted 2025-03-29-16-46-53.png](https://github.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port/tree/main/chapter0/example_i_1-1_jumpStep_3DWalker/3D%20Random%20Walker%20in%20Grasshopper%20C%23-assets/Pasted%202025-03-29-16-46-53.png)
 
 *Some paths created by my 3D robot ant.*
 
