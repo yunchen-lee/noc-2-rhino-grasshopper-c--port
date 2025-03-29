@@ -8,10 +8,6 @@ Imagine a little robot ant that move randomly in space — that’s what a r
 
 ---
 
-This series is titled “The Nature of Code: Porting from p5.js to Rhino+Grasshopper.” Check out the source code here 👉 [noc-2-rhino-grasshopper-csharp-port](https://github.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port) and follow along as we dive into this exciting journey of creative coding!
-
----
-
 ### 2D Random Walker
 
 ![image](https://raw.githubusercontent.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port/main/chapter0/example_i_1-1_jumpStep_3DWalker/3D%20Random%20Walker%20in%20Grasshopper%20C%23-assets/Pasted%202025-03-29-16-46-53%201.png)
@@ -92,6 +88,8 @@ public class Script_Instance : GH_ScriptInstance
 }
 ```
 
+---
+
 ### A Little Adjustment: Jump-Step Walker
 
 ![image](https://raw.githubusercontent.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port/main/chapter0/example_i_1-1_jumpStep_3DWalker/3D%20Random%20Walker%20in%20Grasshopper%20C%23-assets/Pasted%202025-03-29-16-46-53%203.png)
@@ -119,6 +117,8 @@ public void step(){
       pts_list.Add(new Point3d(px, py, 0));
   }
 ```
+
+---
 
 ### 3D Random Walker
 
@@ -159,6 +159,8 @@ class Walker{
     }
 ```
 
+---
+
 ## What’s the Next Step?
 
 - **Mimic Animal Tracks:** Try to simulate the paths of different animals for more organic patterns.
@@ -168,6 +170,8 @@ class Walker{
 ![image](https://raw.githubusercontent.com/yunchen-lee/noc-2-rhino-grasshopper-csharp-port/main/chapter0/example_i_1-1_jumpStep_3DWalker/3D%20Random%20Walker%20in%20Grasshopper%20C%23-assets/Pasted%202025-03-29-16-57-23.png)
 
 *Sacred Space, Leonardo Ulian (2013)*
+
+---
 
 ## Useful References
 
